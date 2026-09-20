@@ -1,4 +1,4 @@
-# PayTM-Style Payment Application 💸
+# PayTM-Style Payment Application 
 
 A full-stack MERN payment application with transaction tracking, spending analytics, and split bill functionality.
 
@@ -42,7 +42,7 @@ A full-stack MERN payment application with transaction tracking, spending analyt
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites:
 - Node.js (v14+)
@@ -98,7 +98,7 @@ Navigate to `http://localhost:5173`
 
 ---
 
-## 📚 API Endpoints
+## API Endpoints
 
 ### Authentication
 - `POST /api/v1/user/signup` - Create new account
@@ -120,7 +120,7 @@ Navigate to `http://localhost:5173`
 
 ---
 
-## 🗄️ Database Schema
+##  Database Schema
 
 ### User
 ```javascript
@@ -172,7 +172,7 @@ Navigate to `http://localhost:5173`
 
 ---
 
-## 🎯 Key Features Explained
+## Key Features Explained
 
 ### MongoDB Transactions
 All money transfers use MongoDB transactions to ensure ACID properties. This prevents partial transfers where money is deducted but not credited.
@@ -189,7 +189,7 @@ Equal split functionality where the bill creator has already paid and other part
 
 ---
 
-## 📖 Documentation
+## Documentation
 
 - **PHASE2_IMPLEMENTATION_SUMMARY.md** - Phase 2 technical details  
 - **PHASE2_INTERVIEW_GUIDE.md** - Phase 2 interview Q&A
@@ -197,7 +197,7 @@ Equal split functionality where the bill creator has already paid and other part
 
 ---
 
-## 🧪 Testing
+##  Testing
 
 ### Quick Test Flow:
 
@@ -213,9 +213,9 @@ Equal split functionality where the bill creator has already paid and other part
 
 ---
 
-## 🔒 Security Notes
+##  Security Notes
 
-**⚠️ This is a learning/demo project. For production, add:**
+**This is a learning/demo project. For production, add:**
 
 - Password hashing (bcrypt)
 - Input sanitization
