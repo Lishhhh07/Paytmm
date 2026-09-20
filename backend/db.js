@@ -1,6 +1,8 @@
-const mongoose = require("mongoose");
-const dotenv = require("dotenv");
-dotenv.config();
+const mongoose = require('mongoose');
+const path = require('path');
+require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
+
+mongoose.connect(process.env.MONGO_URI || "mongodb://localhost:27017/paytm")
 
 const userSchema = new mongoose.Schema({
     username: {
