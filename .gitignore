@@ -1,0 +1,30 @@
+# Documentation files (except README)
+IMPLEMENTATION_SUMMARY.md
+INTERVIEW_QUICK_GUIDE.md
+SYSTEM_FLOW_DIAGRAM.md
+TESTING_CHECKLIST.md
+PHASE2_IMPLEMENTATION_SUMMARY.md
+PHASE2_INTERVIEW_GUIDE.md
+PHASE2_SETUP_INSTRUCTIONS.md
+PHASE3_IMPLEMENTATION_SUMMARY.md
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# Build outputs
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
