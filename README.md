@@ -2,9 +2,7 @@
 
 A full-stack MERN payment application with transaction tracking, spending analytics, and split bill functionality.
 
----
-
-## 🚀 Features
+##  Features
 
 ### Phase 1: Core Payment System
 - ✅ User authentication (JWT)
